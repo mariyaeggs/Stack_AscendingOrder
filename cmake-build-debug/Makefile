@@ -123,6 +123,33 @@ Program2_Eggensperger_Mariya/fast:
 	$(MAKE) -f CMakeFiles/Program2_Eggensperger_Mariya.dir/build.make CMakeFiles/Program2_Eggensperger_Mariya.dir/build
 .PHONY : Program2_Eggensperger_Mariya/fast
 
+Stack.o: Stack.cpp.o
+
+.PHONY : Stack.o
+
+# target to build an object file
+Stack.cpp.o:
+	$(MAKE) -f CMakeFiles/Program2_Eggensperger_Mariya.dir/build.make CMakeFiles/Program2_Eggensperger_Mariya.dir/Stack.cpp.o
+.PHONY : Stack.cpp.o
+
+Stack.i: Stack.cpp.i
+
+.PHONY : Stack.i
+
+# target to preprocess a source file
+Stack.cpp.i:
+	$(MAKE) -f CMakeFiles/Program2_Eggensperger_Mariya.dir/build.make CMakeFiles/Program2_Eggensperger_Mariya.dir/Stack.cpp.i
+.PHONY : Stack.cpp.i
+
+Stack.s: Stack.cpp.s
+
+.PHONY : Stack.s
+
+# target to generate assembly for a file
+Stack.cpp.s:
+	$(MAKE) -f CMakeFiles/Program2_Eggensperger_Mariya.dir/build.make CMakeFiles/Program2_Eggensperger_Mariya.dir/Stack.cpp.s
+.PHONY : Stack.cpp.s
+
 Stack_Tester.o: Stack_Tester.cpp.o
 
 .PHONY : Stack_Tester.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Program2_Eggensperger_Mariya"
+	@echo "... Stack.o"
+	@echo "... Stack.i"
+	@echo "... Stack.s"
 	@echo "... Stack_Tester.o"
 	@echo "... Stack_Tester.i"
 	@echo "... Stack_Tester.s"

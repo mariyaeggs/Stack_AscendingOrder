@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/Users/student/Desktop/CSUMB/CST370/Week2 /Program2_Eggensperger_Mariya/Stack.cpp
+iostream
+-
+Stack.h
+/Users/student/Desktop/CSUMB/CST370/Week2 /Program2_Eggensperger_Mariya/Stack.h
+
+/Users/student/Desktop/CSUMB/CST370/Week2 /Program2_Eggensperger_Mariya/Stack.h
+iostream
+-
+
 /Users/student/Desktop/CSUMB/CST370/Week2 /Program2_Eggensperger_Mariya/Stack_Tester.cpp
 iostream
 -
+Stack.h
+/Users/student/Desktop/CSUMB/CST370/Week2 /Program2_Eggensperger_Mariya/Stack.h
 

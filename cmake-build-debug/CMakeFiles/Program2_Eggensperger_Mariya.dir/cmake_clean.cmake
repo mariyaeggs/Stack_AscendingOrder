@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Program2_Eggensperger_Mariya.dir/Stack_Tester.cpp.o"
+  "CMakeFiles/Program2_Eggensperger_Mariya.dir/Stack.cpp.o"
   "Program2_Eggensperger_Mariya.pdb"
   "Program2_Eggensperger_Mariya"
 )

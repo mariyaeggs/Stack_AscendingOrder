@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/student/Desktop/CSUMB/CST370/Week2 /Program2_Eggensperger_Mariya/Stack.cpp">
+			<Option target="Program2_Eggensperger_Mariya"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/CSUMB/CST370/Week2 /Program2_Eggensperger_Mariya/Stack.h">
+			<Option target="Program2_Eggensperger_Mariya"/>
+		</Unit>
 		<Unit filename="/Users/student/Desktop/CSUMB/CST370/Week2 /Program2_Eggensperger_Mariya/Stack_Tester.cpp">
 			<Option target="Program2_Eggensperger_Mariya"/>
 		</Unit>

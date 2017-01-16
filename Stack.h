@@ -1,5 +1,6 @@
 //----- Stack.h -----
 #include <iostream>
+using namespace std;
 
 #ifndef PROGRAM2_EGGENSPERGER_MARIYA_STACK_H
 #define PROGRAM2_EGGENSPERGER_MARIYA_STACK_H
