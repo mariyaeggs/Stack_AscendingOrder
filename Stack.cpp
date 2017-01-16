@@ -4,7 +4,7 @@ using namespace std;
 
 #include "Stack.h"
 /**
- * Title: Lab 2 Submission : Stacks
+ * Title: Program 2 Submission : Stacks Ascending Order
  * Course: CST 370 Design & Analysis of Algorithms
  * School: CSU, Monterey Bay
  * Professor: Dr. Feiling Jia
@@ -14,6 +14,8 @@ using namespace std;
  * that sorts a group of numbers in ascending
  * order using two stacks. Assumed, the numbers
  * are initially given in one of the stacks.
+ * Ascending order: top of the stack has the
+ * highest value.
  *
  * @author Mariya Eggensperger
 */
