@@ -23,38 +23,61 @@ int main()
 {
    Stack s1, s2;
 
-   // Test insertion of 1, 5, 3, -3, 4, 8, 10, -5
-   s1.push(1);
-   s1.push(5);
-   s1.push(3);
-   s1.push(-3);
-   s1.push(4);
-   s1.push(8);
-   s1.push(10);
-   s1.push(-5);
+   cout << endl;
 
-   cout << "Unsorted: ";
+//   cout << "----------------------- Test: 1, 5, 3, -3, 4, 8, 10, -5 -----------------------";
+//
+//    //Test insertion of 1, 5, 3, -3, 4, 8, 10, -5
+//   s1.push(1);
+//   s1.push(5);
+//   s1.push(3);
+//   s1.push(-3);
+//   s1.push(4);
+//   s1.push(8);
+//   s1.push(10);
+//   s1.push(-5);
+//
+
+//   cout << "----------------------- Test: 1, 5 -4, 6, 2 -----------------------";
+//   // Test insertion of 1, 5 -4, 6, 2
+//   s1.push(1);
+//   s1.push(5);
+//   s1.push(-4);
+//   s1.push(6);
+//   s1.push(2);
+
+   cout << "----------------------- Test: -1, -4 -4, 6, 6, 9 -----------------------";
+   // Test insertion of -1, -4 -4, 6, 6, 9
+   s1.push(-1);
+   s1.push(-4);
+   s1.push(-4);
+   s1.push(6);
+   s1.push(6);
+   s1.push(9);
+
+   cout << "\n\nUnsorted: ";
    s1.display(cout);
 
    // Call on the sorting function
    sort_stack_ascending(s1,s2); // Sort both stacks accordingly
 
-   cout << "Sorted: ";
+   cout << "\n\nSorted: ";
    s2.display(cout);
+   cout << endl;
 
 }
 void sort_stack_ascending(Stack &s1, Stack &s2) {
-   // While the stack 1 is not empty
+   // While stack 1 is not empty
    while(!s1.empty())
    {
-      int temp_item = s1.top(); // Create a temporary top value
-      s1.pop(); // Remove the top item
-      // While stack 2 is not empty and the temp
-      // item is less than the top item
+      int temp_item = s1.top(); // Create a temporary integer to store the stack 1 top value
+      s1.pop(); // Remove the top item from stack 1
+      // While stack 2 is not empty and the temporary integer
+      // item is less than the top item in stack two
       while(!s2.empty() && temp_item < s2.top())
       {
-         s1.push(s2.top()); // Add the lower stack 1 item to the top of stack 2
-         s2.pop(); // Remove value from stack 2
+         s1.push(s2.top()); // Add the higher stack one item to the top of stack two
+         s2.pop(); // And remove the value from stack two
       }
       s2.push(temp_item); // Add the swapped value to stack 2
    }

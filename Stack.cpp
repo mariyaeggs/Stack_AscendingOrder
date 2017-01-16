@@ -50,7 +50,7 @@ void Stack::push(const StackElement & value)
 void Stack::display(ostream & out) const
 {
    for (int i = myTop; i >= 0; i--)
-      out << myArray[i];
+      out <<" " << myArray[i];
 }
 
 //--- Definition of top()
